@@ -9,6 +9,7 @@
     "service_name": "mylandingpage",
     "github_alias": "bk-demo",
     "github_repo_name": "MyLandingPage",
-    "github_repo_branch": "master"
+    "github_repo_branch": "master",
+    "domain_name": "bootstrap-kit-demo.builders.ssa.aws.dev"
   }
 }
