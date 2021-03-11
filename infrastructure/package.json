@@ -8,11 +8,12 @@
     "build": "tsc",
     "build:all": "cd ../ui && npm ci && npm run build && cd - && npm run build",
     "watch": "tsc -w",
-    "test": "jest",
+    "test": "jest --coverage",
     "cdk": "cdk"
   },
   "devDependencies": {
     "@aws-cdk/assert": "1.91.0",
+    "@types/aws-lambda": "^8.10.72",
     "@types/jest": "^26.0.10",
     "@types/node": "10.17.27",
     "@types/npm": "^2.0.31",
