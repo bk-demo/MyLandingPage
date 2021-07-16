@@ -20,7 +20,8 @@
     "jest": "^26.4.2",
     "ts-jest": "^26.2.0",
     "ts-node": "^8.1.0",
-    "typescript": "~3.9.7"
+    "typescript": "~3.9.7",
+    "@types/aws-lambda": "^8.10.72"
   },
   "dependencies": {
     "@aws-cdk/aws-apigateway": "1.114.0",
